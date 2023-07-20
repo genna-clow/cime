@@ -1401,14 +1401,14 @@ contains
     attname  = 'So_ustar'
     call metadata_set(attname, longname, stdname, units)
 
-   ! MODIS Cloud fraction
-    call seq_flds_add(a2x_states,"Sa_m_cloudfrac")
-    call seq_flds_add(x2o_states,"Sa_m_cloudfrac")
-    longname = 'MODIS Cloud fraction'
-    stdname  = 'modis_cloud_frac'
-    units    = '1'
-    attname  = 'Sa_m_cloudfrac'
-    call metadata_set(attname, longname, stdname, units)
+   ! ! MODIS Cloud fraction
+   !  call seq_flds_add(a2x_states,"Sa_m_cloudfrac")
+   !  call seq_flds_add(x2o_states,"Sa_m_cloudfrac")
+   !  longname = 'MODIS Cloud fraction'
+   !  stdname  = 'modis_cloud_frac'
+   !  units    = '1'
+   !  attname  = 'Sa_m_cloudfrac'
+   !  call metadata_set(attname, longname, stdname, units)
    
     ! ISCCP Cloud fraction
     call seq_flds_add(a2x_states,"Sa_i_cloudfrac")
