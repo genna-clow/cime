@@ -1419,14 +1419,14 @@ contains
     attname  = 'Sa_i_cloudfrac'
     call metadata_set(attname, longname, stdname, units)
 
-   ! Solar Zenith Angle
-    call seq_flds_add(a2x_states,"Sa_coszen")
-    call seq_flds_add(x2o_states,"Sa_coszen")
-    longname = 'Cos Solar Zenith Angle'
-    stdname  = 'cos_zenith_angle'
-    units    = '1'
-    attname  = 'Sa_coszen'
-    call metadata_set(attname, longname, stdname, units)
+   ! ! Solar Zenith Angle
+   !  call seq_flds_add(a2x_states,"Sa_coszen")
+   !  call seq_flds_add(x2o_states,"Sa_coszen")
+   !  longname = 'Cos Solar Zenith Angle'
+   !  stdname  = 'cos_zenith_angle'
+   !  units    = '1'
+   !  attname  = 'Sa_coszen'
+   !  call metadata_set(attname, longname, stdname, units)
 
     !-----------------------------
     ! ice<->ocn only exchange
